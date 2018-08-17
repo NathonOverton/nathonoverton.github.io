@@ -11,6 +11,13 @@
 				display: inline-block;
 				font-size: 16px;
 			}
+			p.nope {
+				display: none;
+				font-size: 2em;
+				font-family: 'Comic Sans MS', cursive;
+				font-color: #FF0000;
+				background-color: #000000;
+			}
 		</style>
 		<audio id="1">
 		  <source src="DevoWhipItNightcore.ogg" type="audio/ogg">
@@ -42,17 +49,13 @@
 			function pauseAudio3() {
 			z.stop();	
 			}
-			function stopall() {
-				x.fastSeek(0);
-				y.fastSeek(0);
-				z.fastSeek(0);
-				x.pause();
-				y.pause();
-				z.pause();
+			function noWay() {
+				document.getElementByClass('nope').style.display = block;
 			}
 		</script>
 		<center>
-		<button onclick="stopall()">OH GOD PLEASE STOP THIS GARBAGE</button>
+		<button onclick="noWay()">OH GOD PLEASE STOP THIS GARBAGE</button>
+			<p class="nope">You brought this upon yourself.</p>
 		<table>
 			<tr>
 				<td>
