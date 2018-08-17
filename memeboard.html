@@ -12,25 +12,46 @@
 				font-size: 16px;
 			}
 		</style>
-		<audio id="myAudio">
-		  <source src="https://nathonoverton.github.io/DevoWhipItNightcore.ogg" type="audio/ogg">
+		<audio id="1">
+		  <source src="DevoWhipItNightcore.ogg" type="audio/ogg">
+		  Your browser does not support the audio element.
+		</audio>
+		<audio id="2">
+		  <source src="Stayinalivenightcore.ogg" type="audio/ogg">
 		  Your browser does not support the audio element.
 		</audio>
 		<script>
-			var x = document.getElementById("myAudio"); 
+			var x = document.getElementById("1"); 
 
-			function playAudio() { 
+			function playAudio1() { 
 			    x.play(); 
 			} 
-			function pauseAudio() {
+			function pauseAudio1() {
 				x.stop();	
+			}
+			var y = document.getElementById("2"); 
+
+			function playAudio2() { 
+			    y.play(); 
+			} 
+			function pauseAudio2() {
+				y.stop();	
+			}
+			var z = document.getElementById("3"); 
+
+			function playAudio3() { 
+			    z.play(); 
+			} 
+			function pauseAudio3() {
+				z.stop();	
 			}
 		</script>
 		<center>
 		<table>
 			<tr>
 				<td>
-					<button type="button" onclick="playAudio()">Whip It (Nightcore Edition, No Piracy Here)</button>
+					<button type="button" onclick="playAudio1()">Whip It (Nightcore Edition, No Piracy Here)</button>
+					<button type="button" onclick="playAudio2()">Stayin Alive Nightcore</button>
 				</td>
 			</tr>
 		</table>
