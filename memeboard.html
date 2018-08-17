@@ -42,8 +42,17 @@
 			function pauseAudio3() {
 			z.stop();	
 			}
+			function stopall() {
+				x.fastSeek(0);
+				y.fastSeek(0);
+				z.fastSeek(0);
+				x.pause();
+				y.pause();
+				z.pause();
+			}
 		</script>
 		<center>
+		<button onclick="stopall()">OH GOD PLEASE STOP THIS GARBAGE</button>
 		<table>
 			<tr>
 				<td>
