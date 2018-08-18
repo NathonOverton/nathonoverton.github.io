@@ -1,0 +1,24 @@
+p.titletext {
+	text-align: center;
+	font-family: 'Comic Sans MS', cursive;
+	font-size: 2em;
+	color: #FFFF00;
+}
+table {
+	width: 55em;
+	background-color: #ffadad;
+}
+button {
+	height: 3em;
+	background-image: url('garfield.png');
+	background-position: center;
+	padding-left : 0.5em;
+	color: #FFFFFF;
+	font-weight: bolder;
+	text-shadow:
+	1px 1px #000000,
+	-1px -1px #000000,
+	1px -1px #000000,
+	-1px 1px #000000;
+	font-family: 'Comic Sans MS', cursive;
+}
