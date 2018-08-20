@@ -4,7 +4,7 @@ p.titletext {
 	font-size: 2em;
 	color: #FFFF00;
 }
-table {
+table.soundboard {
 	width: 55em;
 	background-color: #ffadad;
 }
@@ -21,4 +21,18 @@ button {
 	1px -1px #000000,
 	-1px 1px #000000;
 	font-family: 'Comic Sans MS', cursive;
+}
+button.controls {
+	background-image: url('controlsbutton.jpg');
+	text-shadow: none;
+	font-family: 'Arial';
+	font-size: 2em;
+	padding: 1em;
+	color: #FFFFFF;
+}
+p.joerobertsquote {
+	font-family: 'Abril Fatface', cursive;
+	font-size: 2em;
+	color: #fff8e4;
+	text-align: center;
 }
