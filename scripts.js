@@ -9,6 +9,8 @@ var h = document.getElementById("audio8");
 var i = document.getElementById("audio9"); 
 var j = document.getElementById("audio10"); 
 var z = document.getElementById('audio11');
+var vid = document.getElementById('vidplayer');
+var vidsrc = document.getElementById('vidsrc');
 
 function playAudio(audioSelect) { 
 	if (audioSelect == 1) {
@@ -70,3 +72,11 @@ function pauseAudio() {
     j.pause(); 
     z.pause();
 } 
+
+function playVideo(videoSelect) {
+	if (videoSelect == 1) {
+		vidsrc.src = '1.webm';
+		vidsrc.type = 'video/webm';
+		vid.play();
+	}
+}
