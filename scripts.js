@@ -80,3 +80,6 @@ function playVideo(videoSelect) {
 		vid.play();
 	}
 }
+function pauseVideo() {
+	vid.pause();
+}
