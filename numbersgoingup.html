@@ -1,0 +1,13 @@
+<html>
+  <center>
+  <p style="font-size: 15em; font-family: 'Comic Sans MS';" id="numgoingup">0</p>
+  <button onclick="numberGoUp();" type="button">Go up!</button>
+  <script>
+  var number = document.getElementById('numgoingup');
+  
+  function numberGoUp() {
+    number += 1;
+    document.getElementById('numgoingup').innerHTML = number;
+  }
+  </script>
+</html>
