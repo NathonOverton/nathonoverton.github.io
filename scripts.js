@@ -8,6 +8,7 @@ var g = document.getElementById("audio7");
 var h = document.getElementById("audio8"); 
 var i = document.getElementById("audio9"); 
 var j = document.getElementById("audio10"); 
+var z = document.getElementById('audio11');
 
 function playAudio(audioSelect) { 
 	if (audioSelect == 1) {
@@ -50,6 +51,10 @@ function playAudio(audioSelect) {
 	j.load();
 	j.play();
 	}
+	if (audioSelect == 11) {
+	z.load();
+	z.play();
+	}
 } 
 
 function pauseAudio() { 
@@ -63,4 +68,5 @@ function pauseAudio() {
     h.pause(); 
     i.pause(); 
     j.pause(); 
+    z.pause();
 } 
