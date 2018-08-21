@@ -77,6 +77,7 @@ function playVideo(videoSelect) {
 	if (videoSelect == 1) {
 		vidsrc.src = '1.webm';
 		vidsrc.type = 'video/webm';
+		vid.load();
 		vid.play();
 	}
 }
